@@ -1,0 +1,87 @@
+.App{
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center; 
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px; 
+  margin: 0 auto;
+  
+}
+.App li{
+margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem;
+    background-color: #fff;
+    border-radius: 1px solid #ccc;
+    padding: 4px;
+}
+.todo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 15px 0;
+padding: 10px;
+width: 30rem;
+border:2px solid rgba(231, 231, 231, 0.933);
+border-radius: 5px;
+background-color: rgb(247, 246, 246);
+transition: width 1s ;
+}
+.todo .edit{
+  width: 50px;
+  padding: 3px;
+  color: rgb(197, 59, 231);
+  background-color: rgb(255, 255, 255);
+  margin: 0 10px;
+  border: 2px solid rgb(186, 65, 216);
+  border-radius: 5px;
+}
+.todo .remov{
+  width: 50px;
+  padding: 3px;
+  color: rgb(231, 59, 59);
+  background-color: rgb(255, 255, 255);
+  margin: 0 10px;
+  border: 2px solid rgb(231, 59, 59);;
+  border-radius: 5px;
+}
+.complete{
+  text-decoration: line-through;
+  color: rgb(253, 16, 16);
+}
+.form-todo input {
+  width:  300px;
+  padding: 5px;
+  margin: 10px 0;
+}
+ form .form-btn {
+  width: 80px;
+padding: 5px;
+color: rgb(197, 59, 231);
+background-color: rgb(255, 255, 255);
+margin-left: 20px;
+  border-radius: 5px;
+  border-color:  rgb(197, 59, 231);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-selection select {
+  width: 120px;
+  padding: 5px;
+  margin-right: 15px;
+  color: rgb(197, 59, 231);
+background-color: rgb(255, 255, 255);
+border: 2px solid rgb(186, 65, 216);
+border-radius: 5px;
+}
